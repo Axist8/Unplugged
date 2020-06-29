@@ -384,7 +384,35 @@ aside {
 /************** DESKTOP *****************/
 
 @media only screen and (min-width: 1200px) {
-
+.content-wrapper {
+  width: 80%;
+}
+header a {
+  flex-basis: 29%;
+}
+header nav {
+  flex-basis: 15%;
+}
+footer .content-wrapper {
+  width: 80%;
+}
+.contact,
+.social {
+  flex-basis: 33%;
+}
+.footer-content {
+  justify-content: space-between;
+}
+aside .content-wrapper {
+  justify-content: space-around;
+}
+.form-description, .form {
+  flex-basis: 33%;
+}
+.features article {
+  width: 21%;
+  margin: 40px;
+}
 }
 
 /************** PRINT *************/
