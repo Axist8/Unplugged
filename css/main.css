@@ -68,26 +68,96 @@ list-style-type: none;
      color: #e2e3ed;
      text-decoration: none;
    }
-
+   h1 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 2.25em;
+   }
    h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
-   }
-
-   h3,
-   h4 {
+  }
+  h3 {
+    font-size: 1.125em;
+    font-family: 'Poppins', sans-serif;
+  }
+  h4 {
     font-family: 'Poppins', sans-serif;
     margin: 20px 0;
-    font-size: 1.125em;
+    font-size: 1.875em;
    }
 
    p {
 font-size: .875em;
-line-height: 1.2em;
+line-height: 1.285;
    }
 
    address {
 font-style: normal;
+   }
+
+   aside .form {
+     margin-top: 30px;
+   }
+
+   input[type=text] {
+     box-sizing: border-box;
+     width: 100%;
+     color: #2a423a;
+     font-style: italic;
+     padding: 1em;
+   }
+
+   input[type=button] {
+     width: 100%;
+     padding: 20px 0;
+     margin-top: 20px;
+     background-color: #2a423a;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     border: none;
+     text-align: center;
+     text-transform: uppercase;
+   }
+
+   header {
+     background-color: #202322;
+   }
+
+   header nav ul li {
+     font-size: 1.125em;
+   }
+
+   .hero-area {
+     height: 500px;
+     background: url(../img/hero.jpg) no-repeat center;
+     background-size: cover;
+     color: #e2e3ed;
+   }
+
+   aside {
+     background-color: #527158;
+     color: #e2e3ed;
+   }
+
+   .features {
+     background: url(../img/backsplash.jpg) no-repeat center;
+     background-size: cover;
+     color: #e2e3ed;
+   }
+
+   .features p {
+     text-align: center;
+   }
+
+   footer {
+     background-color: #202322;
+     color: #ffffff;
+   }
+   footer h4,
+   footer p {
+     text-align: center;
    }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -125,9 +195,12 @@ header .content-wrapper {
 }
 
 header a img {
-  width:100%
+  width:69%;
 }
-
+header a {
+  display: flex;
+  justify-content: center;
+}
 header nav {
   justify-content: space-around;
   display: flex;
@@ -208,7 +281,8 @@ aside {
   width: 63%;
   margin: 30px 0;
 }
-.features-items {
+
+.features .articles {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,6 +293,14 @@ aside {
   margin: 0;
 }
 
+.reviews {
+  background-color: #2a423a;
+  color: #e2e3ed;
+}
+
+.reviews img {
+  width: 100%;
+}
 /* Reviews */
 
 .reviews {
@@ -244,13 +326,17 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
-.contact-section {
+.contact-us {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #e2e3ed;
 }
 
 .contact-content p {
@@ -266,6 +352,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .faq .content-wrapper {
@@ -340,7 +428,7 @@ aside {
     width: 83%;
     }
     header a {
-      flex-basis: 34%;
+      flex-basis: 45%;
     }
     header nav {
       flex-basis: 20%;
@@ -362,6 +450,21 @@ aside {
     .footer-content {
       display: flex;
       justify-content: space-around;
+    }
+    p {
+      font-size: .875em;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2.25em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.5em;
     }
     aside .content-wrapper {
       margin: 50px 0;
@@ -385,9 +488,15 @@ aside {
     .features h2 {
       width: 100%;
     }
-    .reviews img,
+    .reviews h3 {
+      width: 80%;
+    }
     .reviews .team {
       width: 50%;
+    }
+    .reviews img {
+      width: 50%;
+      margin: 0 10px 0 0;
     }
     .reviews article {
       display: flex;
@@ -412,7 +521,7 @@ aside {
 
     .contact-content {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -453,6 +562,21 @@ footer .content-wrapper {
 .footer-content {
   justify-content: space-between;
 }
+h1 {
+  font-size: 3.75em;
+}
+p {
+  font-size: 1.125em;
+}
+h3 {
+  font-size: 1.875em;
+}
+h2 {
+  font-size: 2.25em;
+}
+h4 {
+  font-size: 1.875em;
+}
 aside .content-wrapper {
   justify-content: space-around;
 }
@@ -462,6 +586,18 @@ aside .content-wrapper {
 .features article {
   width: 21%;
   margin: 40px;
+}
+.hero-area .content-wrapper h1 {
+  width: 70%;
+}
+.hero-area {
+  height: 650px;
+}
+ .reviews img {
+  margin: 0 20px 0 0;
+}
+.reviews .team {
+  margin: 0 0 0 20px;
 }
 }
 
