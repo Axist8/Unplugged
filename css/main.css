@@ -75,21 +75,21 @@ list-style-type: none;
    }
    h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.875em;
+    font-size: 2em;
   }
   h3 {
-    font-size: 1.125em;
+    font-size: 1.3em;
     font-family: 'Poppins', sans-serif;
   }
   h4 {
     font-family: 'Poppins', sans-serif;
     margin: 20px 0;
-    font-size: 1.875em;
+    font-size: 2em;
    }
 
    p {
-font-size: .875em;
-line-height: 1.285;
+font-size: 1em;
+line-height: 1.4;
    }
 
    address {
@@ -311,14 +311,7 @@ aside {
         margin-bottom: 40px;
 }
 
-.reviews {
-  background-color: #2a423a;
-  color: #e2e3ed;
-}
 
-.reviews img {
-  width: 100%;
-}
 /* Reviews */
 
 .reviews {
@@ -334,6 +327,18 @@ aside {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+}
+.reviews {
+  background-color: #2a423a;
+  color: #e2e3ed;
+}
+
+.reviews img {
+  width: 100%;
+}
+.reviews figure {
+  display: flex;
+  align-items: center;
 }
 /* ==========================================================================
    About Page
@@ -359,6 +364,9 @@ aside {
 
 .contact-content p {
   margin: 0;
+}
+.map .embed-container {
+  max-height: 600px;
 }
 
 /* ==========================================================================
@@ -485,10 +493,13 @@ aside {
       font-size: 1.5em;
     }
     aside .content-wrapper {
-      margin: 0 0 50px 0;
+      margin: 20px 0 50px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+    aside .form {
+      margin-top: 0;
     }
     .form-description, .form {
       flex-basis: 45%;
@@ -496,6 +507,9 @@ aside {
     .features article {
       width: 30%;
       margin: 20px;
+    }
+    .features .articles {
+      justify-content: space-around;
     }
     .features .content-wrapper {
       display: flex;
@@ -512,7 +526,7 @@ aside {
     .reviews .team {
       width: 50%;
     }
-    .reviews img {
+    .reviews figure {
       width: 50%;
       margin: 0 10px 0 0;
     }
