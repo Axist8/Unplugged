@@ -95,7 +95,10 @@ line-height: 1.4;
    address {
 font-style: normal;
    }
-
+aside .content-wrapper {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
    aside .form {
      margin-top: 30px;
    }
@@ -454,10 +457,10 @@ aside {
     width: 83%;
     }
     header a {
-      flex-basis: 65%;
+      flex-basis: 70%;
     }
     header nav {
-      width: 40%;
+      width: 50%;
     }
     header nav ul {
       justify-content: space-between;
@@ -493,7 +496,6 @@ aside {
       font-size: 1.5em;
     }
     aside .content-wrapper {
-      margin: 20px 0 50px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -519,6 +521,9 @@ aside {
     }
     .features h2 {
       width: 100%;
+    }
+    .reviews .content-wrapper {
+      margin-bottom: 80px;
     }
     .reviews h3 {
       width: 80%;
